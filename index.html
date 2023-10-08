@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinto GYM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .welcome {
+            text-align: center;
+        }
+
+        .welcome img {
+            width: 50%;
+            height: auto;
+        }
+
+        .welcome h1 {
+            color: #333;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .service {
+            width: 30%;
+        }
+
+        .service img {
+            width: 100%;
+            height: auto;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .contact label, .contact input, .contact textarea {
+            width: 100%;
+            margin-bottom: 1em;
+            padding: 0.5em;
+        }
+
+        .contact input[type=submit] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pinto GYM</h1>
+        <p>Your fitness journey begins here</p>
+    </header>
+    <section class="welcome">
+        <img src="header.png" alt="Pinto Gym">
+        <h1>Welcome to Our Gym</h1>
+        <p>Your health and wellness journey starts now. Get ready to become the best version of yourself.</p>
+    </section>
+    <section class="services">
+        <div class="service">
+            <img src="cardio.png" alt="">
+            <h2>Cardio Training</h2>
+            <p>Improve your endurance and burn calories with our top-tier cardio equipment and classes.</p>
+        </div>
+        <div class="service">
+            <img src="strength.png" alt="">
+            <h2>Strength Training</h2>
+            <p>Build muscle, increase strength, and enhance performance with our weights and resistance training.</p>
+        </div>
+        <div class="service">
+            <img src="trainer.png" alt="">
+            <h2>Personal Training</h2>
+            <p>Work one-on-one with our certified personal trainers to create and execute a customized fitness plan.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send">
+        </form><Br><br><br>
+    </section>
+    <footer>
+        <p>&copy; 2023 Pinto GYM | Chinchinim | 7083032404</p>
+    </footer>
+</body>
+
+</html>
